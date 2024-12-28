@@ -1,0 +1,44 @@
+[0.784s] Invoking command in '/home/rodding/ros2_workspace/src/plane_kinematics_algorithm': PYTHONPATH=/home/rodding/ros2_workspace/build/plane_kinematics_algorithm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rodding/ros2_workspace/install/plane_kinematics_algorithm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/plane_kinematics_algorithm build --build-base /home/rodding/ros2_workspace/build/plane_kinematics_algorithm/build install --record /home/rodding/ros2_workspace/build/plane_kinematics_algorithm/install.log --single-version-externally-managed install_data
+[1.082s] running egg_info
+[1.083s] creating ../../build/plane_kinematics_algorithm/plane_kinematics_algorithm.egg-info
+[1.083s] writing ../../build/plane_kinematics_algorithm/plane_kinematics_algorithm.egg-info/PKG-INFO
+[1.084s] writing dependency_links to ../../build/plane_kinematics_algorithm/plane_kinematics_algorithm.egg-info/dependency_links.txt
+[1.084s] writing entry points to ../../build/plane_kinematics_algorithm/plane_kinematics_algorithm.egg-info/entry_points.txt
+[1.084s] writing requirements to ../../build/plane_kinematics_algorithm/plane_kinematics_algorithm.egg-info/requires.txt
+[1.084s] writing top-level names to ../../build/plane_kinematics_algorithm/plane_kinematics_algorithm.egg-info/top_level.txt
+[1.084s] writing manifest file '../../build/plane_kinematics_algorithm/plane_kinematics_algorithm.egg-info/SOURCES.txt'
+[1.086s] reading manifest file '../../build/plane_kinematics_algorithm/plane_kinematics_algorithm.egg-info/SOURCES.txt'
+[1.088s] writing manifest file '../../build/plane_kinematics_algorithm/plane_kinematics_algorithm.egg-info/SOURCES.txt'
+[1.088s] running build
+[1.088s] running build_py
+[1.088s] creating /home/rodding/ros2_workspace/build/plane_kinematics_algorithm/build
+[1.088s] creating /home/rodding/ros2_workspace/build/plane_kinematics_algorithm/build/lib
+[1.088s] creating /home/rodding/ros2_workspace/build/plane_kinematics_algorithm/build/lib/plane_kinematics_algorithm
+[1.088s] copying plane_kinematics_algorithm/plane_kinematics_controller.py -> /home/rodding/ros2_workspace/build/plane_kinematics_algorithm/build/lib/plane_kinematics_algorithm
+[1.089s] copying plane_kinematics_algorithm/kinematics_controller.py -> /home/rodding/ros2_workspace/build/plane_kinematics_algorithm/build/lib/plane_kinematics_algorithm
+[1.089s] copying plane_kinematics_algorithm/__init__.py -> /home/rodding/ros2_workspace/build/plane_kinematics_algorithm/build/lib/plane_kinematics_algorithm
+[1.089s] running install
+[1.089s] running install_lib
+[1.090s] creating /home/rodding/ros2_workspace/install/plane_kinematics_algorithm/lib/python3.10/site-packages/plane_kinematics_algorithm
+[1.090s] copying /home/rodding/ros2_workspace/build/plane_kinematics_algorithm/build/lib/plane_kinematics_algorithm/plane_kinematics_controller.py -> /home/rodding/ros2_workspace/install/plane_kinematics_algorithm/lib/python3.10/site-packages/plane_kinematics_algorithm
+[1.090s] copying /home/rodding/ros2_workspace/build/plane_kinematics_algorithm/build/lib/plane_kinematics_algorithm/kinematics_controller.py -> /home/rodding/ros2_workspace/install/plane_kinematics_algorithm/lib/python3.10/site-packages/plane_kinematics_algorithm
+[1.090s] copying /home/rodding/ros2_workspace/build/plane_kinematics_algorithm/build/lib/plane_kinematics_algorithm/__init__.py -> /home/rodding/ros2_workspace/install/plane_kinematics_algorithm/lib/python3.10/site-packages/plane_kinematics_algorithm
+[1.091s] byte-compiling /home/rodding/ros2_workspace/install/plane_kinematics_algorithm/lib/python3.10/site-packages/plane_kinematics_algorithm/plane_kinematics_controller.py to plane_kinematics_controller.cpython-310.pyc
+[1.091s] byte-compiling /home/rodding/ros2_workspace/install/plane_kinematics_algorithm/lib/python3.10/site-packages/plane_kinematics_algorithm/kinematics_controller.py to kinematics_controller.cpython-310.pyc
+[1.092s] byte-compiling /home/rodding/ros2_workspace/install/plane_kinematics_algorithm/lib/python3.10/site-packages/plane_kinematics_algorithm/__init__.py to __init__.cpython-310.pyc
+[1.092s] running install_data
+[1.092s] creating /home/rodding/ros2_workspace/install/plane_kinematics_algorithm/share/ament_index
+[1.092s] creating /home/rodding/ros2_workspace/install/plane_kinematics_algorithm/share/ament_index/resource_index
+[1.092s] creating /home/rodding/ros2_workspace/install/plane_kinematics_algorithm/share/ament_index/resource_index/packages
+[1.092s] copying resource/plane_kinematics_algorithm -> /home/rodding/ros2_workspace/install/plane_kinematics_algorithm/share/ament_index/resource_index/packages
+[1.093s] creating /home/rodding/ros2_workspace/install/plane_kinematics_algorithm/share/plane_kinematics_algorithm/launch
+[1.093s] copying launch/spawn_plane_with_kinematics_launch.py -> /home/rodding/ros2_workspace/install/plane_kinematics_algorithm/share/plane_kinematics_algorithm/launch
+[1.093s] creating /home/rodding/ros2_workspace/install/plane_kinematics_algorithm/share/plane_kinematics_algorithm/urdf
+[1.093s] copying urdf/plane_with_payload.urdf -> /home/rodding/ros2_workspace/install/plane_kinematics_algorithm/share/plane_kinematics_algorithm/urdf
+[1.093s] copying package.xml -> /home/rodding/ros2_workspace/install/plane_kinematics_algorithm/share/plane_kinematics_algorithm
+[1.093s] running install_egg_info
+[1.095s] Copying ../../build/plane_kinematics_algorithm/plane_kinematics_algorithm.egg-info to /home/rodding/ros2_workspace/install/plane_kinematics_algorithm/lib/python3.10/site-packages/plane_kinematics_algorithm-0.1.0-py3.10.egg-info
+[1.097s] running install_scripts
+[1.123s] Installing kinematics_controller script to /home/rodding/ros2_workspace/install/plane_kinematics_algorithm/lib/plane_kinematics_algorithm
+[1.124s] writing list of installed files to '/home/rodding/ros2_workspace/build/plane_kinematics_algorithm/install.log'
+[1.161s] Invoked command in '/home/rodding/ros2_workspace/src/plane_kinematics_algorithm' returned '0': PYTHONPATH=/home/rodding/ros2_workspace/build/plane_kinematics_algorithm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rodding/ros2_workspace/install/plane_kinematics_algorithm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/plane_kinematics_algorithm build --build-base /home/rodding/ros2_workspace/build/plane_kinematics_algorithm/build install --record /home/rodding/ros2_workspace/build/plane_kinematics_algorithm/install.log --single-version-externally-managed install_data

@@ -1,0 +1,3 @@
+[console_scripts]
+kinematics_controller = plane_kinematics_algorithm.kinematics_controller:main
+
